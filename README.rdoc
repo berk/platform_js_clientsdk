@@ -17,7 +17,7 @@ Yahoo's best practices: http://developer.yahoo.com/performance/rules.html#js_bot
   </script>
 
 
-In addition to app_id, <strong>Platform.init()</strong> has a few optional parameters.
+In addition to app_id, Platform.init() has a few optional parameters.
 
   <script src="https://raw.github.com/berk/platform_js_clientsdk/master/jsdk.js"></script>
   <script>
