@@ -139,7 +139,7 @@ For post requests, you'll need to pass a 'method' parameter in the second argume
 
 == Contributors
 
-Ian McDaniel: https://github.com/ianmcdaniel
-Michael Berkovich: https://github.com/berk
+* Ian McDaniel: https://github.com/ianmcdaniel
+* Michael Berkovich: https://github.com/berk
 
 
