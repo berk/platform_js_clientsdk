@@ -5,16 +5,15 @@ It enables full access to all of Platform's API methods on the client-side and p
 
 == Getting Started
 
-To get started, you'll need to add the library to your page, and initialize your app by calling <strong>Platform.init()</strong>, passing in your application key. 
-The best place to put this is at the bottom of your page, before the closing <strong>&lt;/body&gt;</strong> tag to prohibit blocking parallel downloads as described in 
-<a href="http://developer.yahoo.com/performance/rules.html#js_bottom">Yahoo's best practices</a>.
+To get started, you'll need to add the library to your page, and initialize your app by calling *Platform.init()*, passing in your application key. 
+The best place to put this is at the bottom of your page, before the closing *&lt;/body&gt;* tag to prohibit blocking parallel downloads as described in 
+[Yahoo's best practices](http://developer.yahoo.com/performance/rules.html#js_bottom)
 
-	<script src="https://raw.github.com/berk/platform_js_clientsdk/master/jsdk.js">&lt;/script>
-	<script>
-    	Platform.init({
-        	app_id: 'YOUR_APP_KEY'
-    	});
-	</script>
+<pre><code><script src="https://raw.github.com/berk/platform_js_clientsdk/master/jsdk.js">&lt;/script>
+  Platform.init({
+  	app_id: 'YOUR_APP_KEY'
+  });
+</code></pre>
 
 In addition to app_id, <strong>Platform.init()</strong> has a few optional parameters.
 
