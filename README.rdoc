@@ -1,5 +1,10 @@
 = Platform JavaScript SDK
 
+This library is intended to be used with the Platform gem:
+
+https://github.com/berk/platform
+
+
 The Platform Javascript SDK is a full featured javascript library allowing developers to build dynamic web applications in the browser with Platform's data. 
 It enables full access to all of Platform's API methods on the client-side and provides robust functionality for working with Oauth 2.0 authentication. 
 
