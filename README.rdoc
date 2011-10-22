@@ -10,14 +10,16 @@ The best place to put this is at the bottom of your page, before the closing bod
 Yahoo's best practices: http://developer.yahoo.com/performance/rules.html#js_bottom
 
   <script src="https://raw.github.com/berk/platform_js_clientsdk/master/jsdk.js"></script>
-  Platform.init({
-  	app_id: 'YOUR_APP_KEY'
+	<script>
+  		Platform.init({
+  		app_id: 'YOUR_APP_KEY'
   });
+	</script>
 
 In addition to app_id, <strong>Platform.init()</strong> has a few optional parameters.
 
   <script src="https://raw.github.com/berk/platform_js_clientsdk/master/jsdk.js"></script>
-	<script>
+  <script>
     Platform.init({
         app_id: 'YOUR_APP_KEY',
         host: 'http://localhost:3000',    	// change host to your platform application server
